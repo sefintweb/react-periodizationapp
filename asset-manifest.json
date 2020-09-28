@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-periodizationapp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-periodizationapp/static/js/main.003c3f52.chunk.js",
+    "main.js.map": "/react-periodizationapp/static/js/main.003c3f52.chunk.js.map",
+    "runtime-main.js": "/react-periodizationapp/static/js/runtime-main.e04636f7.js",
+    "runtime-main.js.map": "/react-periodizationapp/static/js/runtime-main.e04636f7.js.map",
+    "static/js/2.129e5f60.chunk.js": "/react-periodizationapp/static/js/2.129e5f60.chunk.js",
+    "static/js/2.129e5f60.chunk.js.map": "/react-periodizationapp/static/js/2.129e5f60.chunk.js.map",
+    "index.html": "/react-periodizationapp/index.html",
+    "precache-manifest.a00d177a1257b0329f5095226512ac52.js": "/react-periodizationapp/precache-manifest.a00d177a1257b0329f5095226512ac52.js",
+    "service-worker.js": "/react-periodizationapp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-periodizationapp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.129e5f60.chunk.js.LICENSE.txt": "/react-periodizationapp/static/js/2.129e5f60.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-periodizationapp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e04636f7.js",
+    "static/js/2.129e5f60.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.003c3f52.chunk.js"
+  ]
+}
