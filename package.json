@@ -2,7 +2,7 @@
   "name": "periodizationapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pierovillata.github.io/react-periodizationapp",
+  "homepage": "http://periodizatioapp.xyz",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -12,7 +12,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy":"npm run build $$ echo periodization.xyz > ./build/CNAME",
     "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
