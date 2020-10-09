@@ -9,8 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>PeriodizationAPP</h1>
-        <BarraNav></BarraNav>
-      </header>     
+        
+      </header>
+      <BarraNav></BarraNav>      
     </div>
   );
 }

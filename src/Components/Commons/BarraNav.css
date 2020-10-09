@@ -1,0 +1,11 @@
+li{
+    display: inline-flex;
+    margin-right: 2em;
+
+}
+a{
+  display:inline;
+  background-color: #dddddd;
+  background-color: black;
+  color: blanchedalmond;
+}
