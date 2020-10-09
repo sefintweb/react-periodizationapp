@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ListAtletas from './Components/Atletas/ListAtletas';
+import ListDeportes from './Components/Deportes/ListDeportes';
 
 function App() {
   return (
@@ -8,15 +10,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>PeriodizationAPP</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
       </header>
+      <nav>
+        <ListAtletas></ListAtletas>
+        <ListDeportes></ListDeportes>
+      </nav>
     </div>
   );
 }
