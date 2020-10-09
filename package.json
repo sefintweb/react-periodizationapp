@@ -12,7 +12,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy": "npm run build && echo periodization.xyz > ./build/CNAME",
+    "predeploy": "npm run build && echo periodizationapp.xyz > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
