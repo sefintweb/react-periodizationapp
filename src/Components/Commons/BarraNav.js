@@ -12,7 +12,7 @@ export default function BarraNav() {
       <Router>
         <div>
           <nav>
-            <ul>
+            <ul id="button">
               <li>
                 <Link to="/">Home</Link>
               </li>
