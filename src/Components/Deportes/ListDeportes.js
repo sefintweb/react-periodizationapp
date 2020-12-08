@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import MenuDeportes from './MenuDeportes'
 
 export default class ListDeportes extends Component {
     render() {
         return (
             <div>
-                <p>Lista de Deportes</p>
+               <MenuDeportes></MenuDeportes>
+               
             </div>
         )
     }

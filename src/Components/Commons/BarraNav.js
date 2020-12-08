@@ -32,7 +32,8 @@ export default function BarraNav() {
             </ul>
           </nav>
         </div>
-
+        <br></br>
+        <br></br>
         <Switch>
           <Route path="/deportes">
             <ListDeportes></ListDeportes>
@@ -49,6 +50,7 @@ export default function BarraNav() {
         </Switch>
 
       </Router>
+      
     
   );
 }
