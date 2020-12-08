@@ -22,8 +22,8 @@ export default class CreateDeporte extends Component {
             <Row>
               <Col>
                 <Card>
-                  <CardHeader>
-                    <CardText>Nuevo Deporte</CardText>
+                  <CardHeader >
+                    <CardText color="primary">Nuevo Deporte</CardText>
                   </CardHeader>
                   <CardBody>
                     <Form>
@@ -33,12 +33,7 @@ export default class CreateDeporte extends Component {
 
                       <FormGroup>
                         <Label form="nombre">Deporte:</Label>
-                        <Input
-                          type="text"
-                          id="nombre"
-                          name="nombre"
-                          placeholder="nombre del deporte"
-                        ></Input>
+                        <Input type="text" id="nombre" name="nombre"></Input>
                       </FormGroup>
                       <FormGroup>
                         <Label for="descripcion">Descripcion :</Label>
@@ -50,7 +45,7 @@ export default class CreateDeporte extends Component {
                       </FormGroup>
                       <FormGroup>
                         <Label for="tipo_Dep">Tipo: </Label>
-                        <Input type="select" id="tipo_dep">
+                        <Input type="select" id="tipo_dep" name="tipo_dep">
                           <option value="Resistencia">Resistencia</option>
                           <option value="Fuerza">Fuerza</option>
                           <option value="Velocidad">Velocidad</option>
