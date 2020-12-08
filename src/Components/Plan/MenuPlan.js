@@ -1,15 +1,14 @@
 import React from "react";
-import './Plan.css'
+import './MenuPlan.css'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CreateMacrociclos from "../Macrociclos/CreateMacrociclos";
 
-export default function PlanDashboard() {
+export default function MenuPlan() {
   return (
     <Router>
-      <div>
-          
+      <div>          
         <nav>
-          <ul id="dashboard">
+          <ul id="button">
             <li>
               <Link to="/macrociclos">Macrociclos</Link>
             </li>

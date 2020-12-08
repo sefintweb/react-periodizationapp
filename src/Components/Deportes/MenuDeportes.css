@@ -12,20 +12,26 @@
 
   #button li a {
     font-family: Arial;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
     float: left;
-    padding: 10px;
-    background-color: #7fbff3;
+    padding: 7px;
+    background-color: #2175bc;
     color: #fff;
     border-radius: 5px;
     margin-right: 5px;
     }
 
     #button li a:hover {
-      background-color: #2586d7;
-      margin-top: -2;
-      padding-bottom: 12px;
+      font-family: Arial;
+      font-size: 18px;
+      text-decoration: none;
+      float: left;
+      padding: 7px;
+      background-color: #0584ec;
+      color: #fff;
+      border-radius: 5px;
+      margin-right: 5px;
       }
 
       

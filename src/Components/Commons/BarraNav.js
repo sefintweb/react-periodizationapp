@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ListDeportes from "../Deportes/ListDeportes";
 import ListAtletas from "../Atletas/ListAtletas";
 import ListEntrenadores from "../Entrenadores/ListEntrenadores";
-import PlanDashboard from "../Plan/PlanDashboard";
+import MenuPlan from "../Plan/MenuPlan";
 
 export default function BarraNav() {
   return (
@@ -45,7 +45,7 @@ export default function BarraNav() {
             <ListEntrenadores></ListEntrenadores>
           </Route>
           <Route path="/planes">
-            <PlanDashboard></PlanDashboard>
+          <MenuPlan></MenuPlan>
           </Route>
         </Switch>
 
